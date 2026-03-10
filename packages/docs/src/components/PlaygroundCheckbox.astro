@@ -1,5 +1,5 @@
 ---
-import { SdkEventMessage } from '../../src/models/internal';
+import { type SdkEventMessage } from '../../../lib/src';
 
 type Props = {
   checked: boolean;
@@ -13,10 +13,10 @@ const { checked, event }: Props = Astro.props;
 <div>
   <label>
     <input
-        type="checkbox"
-        data-type="event"
-        data-event={event}
-        checked={checked}
+      type="checkbox"
+      data-type="event"
+      data-event={event}
+      checked={checked}
     />
     <slot/>
   </label>

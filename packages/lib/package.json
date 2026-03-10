@@ -26,7 +26,7 @@
     "test:watch": "jest --watch"
   },
   "devDependencies": {
-    "@enghouse-qumu/eslint-config": "1.0.0",
+    "@qumu/eslint-config": "1.0.6",
     "@types/jest": "30.0.0",
     "jest": "30.1.3",
     "jest-environment-jsdom": "30.1.2",

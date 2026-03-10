@@ -1,5 +1,5 @@
 import { defineConfig } from 'eslint/config';
-import { astro, javascript, markdown } from '@enghouse-qumu/eslint-config';
+import { astro, javascript, markdown } from '@qumu/eslint-config';
 
 export default defineConfig([
   {

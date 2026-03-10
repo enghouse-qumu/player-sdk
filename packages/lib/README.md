@@ -18,7 +18,7 @@ In order to control a Qumu Cloud presentation, you will need to add it to your w
 ```html
 <iframe src="<url-to-presentation>" frameborder="0"></iframe>
 
-<script src="https://unpkg.com/@enghouse-qumu/player-sdk@<version>/dist/index.umd.js"></script>
+<script src="https://unpkg.com/@qumu/player-sdk@<version>/dist/index.umd.js"></script>
 <script>
   const iframe = document.querySelector('iframe');
 
@@ -40,7 +40,7 @@ This version is only supported on modern browsers (no IE11) but offers a code st
 <iframe src="<url-to-presentation>" frameborder="0"></iframe>
 
 <script type="module">
-  import { PlayerSdk } from 'https://unpkg.com/@enghouse-qumu/player-sdk@<version>/dist/index.modern.mjs'
+  import { PlayerSdk } from 'https://unpkg.com/@qumu/player-sdk@<version>/dist/index.modern.mjs'
 
   const iframe = document.querySelector('iframe');
 
@@ -59,11 +59,11 @@ This version is only supported on modern browsers (no IE11) but offers a code st
 If you use a module bundler (like Webpack or rollup), you will first need to install the dependency.
 
 ```shell
-npm install @enghouse-qumu/player-sdk
+npm install @qumu/player-sdk
 ```
 
 ```js
-import { PlayerSdk } from '@enghouse-qumu/player-sdk';
+import { PlayerSdk } from '@qumu/player-sdk';
 
 const iframe = document.querySelector('iframe');
 

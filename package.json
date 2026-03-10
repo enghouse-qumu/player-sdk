@@ -1,6 +1,5 @@
 {
-  "private": true,
-  "name": "@enghouse-qumu/player-sdk",
+  "name": "@qumu/player-sdk",
   "version": "3.3.2",
   "description": "JavaScript SDK to interact with the player ",
   "engines": {
@@ -8,13 +7,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/qumu/player-sdk.git"
+    "url": "git+https://github.com/enghouse-qumu/player-sdk.git"
   },
   "bugs": {
-    "url": "https://github.com/qumu/player-sdk/issues"
+    "url": "https://github.com/enghouse-qumu/player-sdk/issues"
   },
   "type": "module",
-  "homepage": "https://qumu.github.io/player-sdk",
+  "homepage": "https://enghouse-qumu.github.io/player-sdk",
   "workspaces": [
     "packages/*"
   ],
@@ -23,7 +22,6 @@
     "serve": "npm run dev -w lib && (npm run dev:watch -w lib & npm run dev:watch -w docs)"
   },
   "devDependencies": {
-    "stylelint": "13.9.0",
     "typescript": "5.9.2"
   },
   "volta": {

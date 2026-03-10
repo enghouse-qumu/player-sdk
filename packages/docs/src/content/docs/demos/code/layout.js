@@ -1,4 +1,4 @@
-import { PlayerSdk } from '@enghouse-qumu/player-sdk';
+import { PlayerSdk } from '@qumu/player-sdk';
 
 const iframe = document.querySelector('iframe');
 const sdk = new PlayerSdk(iframe);
