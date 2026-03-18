@@ -39,7 +39,7 @@ jobs:
         run: npm run build --workspace packages/lib
 
       - name: Build Astro site
-        run: npm run build -workspace packages/docs -- --base player-sdk/ --site https://enghouse-qumu.github.io
+        run: npm run build --workspace packages/docs -- --base player-sdk/ --site https://enghouse-qumu.github.io
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
